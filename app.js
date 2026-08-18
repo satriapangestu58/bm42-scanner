@@ -41,7 +41,7 @@
   function jsonp(params, timeoutMs=10000) {
     return new Promise((resolve, reject) => {
       const name = "__bm42_jsonp_" + Date.now() + "_" + (++state.requestSeq);
-      const callbackParam = "callback";
+      const callbackParam = "prefix";
       const url = new URL(BM42_API_URL);
       Object.entries(params).forEach(([k,v]) => url.searchParams.set(k, v));
       url.searchParams.set(callbackParam, name);
