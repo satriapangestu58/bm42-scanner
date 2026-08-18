@@ -1,7 +1,7 @@
 // Isi dengan URL /exec deployment Apps Script yang sudah terbukti bekerja.
 // CONTOH:
 // const BM42_API_URL = "https://script.google.com/macros/s/AKfycbxxxxxxxxxxxxxxxx/exec";
-const BM42_API_URL = "PASTE_YOUR_APPS_SCRIPT_EXEC_URL_HERE";
+const BM42_API_URL = "https://script.google.com/macros/s/AKfycbwqi2gjnkCtBeopZoxtYLZ4o1lVg1L0R26CS0Ju6_8/exec";
 
 // Scanner ID untuk perangkat ini.
 // Gunakan SCN-01 ... SCN-05 sesuai pembagian panitia.
